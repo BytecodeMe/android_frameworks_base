@@ -62,7 +62,6 @@ public class AwesomeAnimationHelper {
         return anim;
     }
 
-    /*
     public static int[] getAnimations(int mAnim) {
         int[] anim = new int[2];
         switch (mAnim) {
@@ -121,7 +120,6 @@ public class AwesomeAnimationHelper {
         }
         return anim;
     }
-    */
 
     public static String getProperName(Context context, int mAnim) {
         Resources res = context.getResources();
