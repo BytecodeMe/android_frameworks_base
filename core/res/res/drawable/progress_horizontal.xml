@@ -15,49 +15,49 @@
 -->
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    
+
     <item android:id="@android:id/background">
         <shape>
             <corners android:radius="5dip" />
             <gradient
-                    android:startColor="#ff9d9e9d"
-                    android:centerColor="#ff5a5d5a"
+                    android:startColor="#4cffffff"
+                    android:centerColor="#4cffffff"
                     android:centerY="0.75"
-                    android:endColor="#ff747674"
+                    android:endColor="#4cffffff"
                     android:angle="270"
             />
         </shape>
     </item>
-    
+
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape>
                 <corners android:radius="5dip" />
                 <gradient
-                        android:startColor="#80ffd300"
-                        android:centerColor="#80ffb600"
+                        android:startColor="#4c09afed"
+                        android:centerColor="#4c09afed"
                         android:centerY="0.75"
-                        android:endColor="#a0ffcb00"
+                        android:endColor="#4c09afed"
                         android:angle="270"
                 />
             </shape>
         </clip>
     </item>
-    
+
     <item android:id="@android:id/progress">
         <clip>
             <shape>
                 <corners android:radius="5dip" />
                 <gradient
-                        android:startColor="#ffffd300"
-                        android:centerColor="#ffffb600"
+                        android:startColor="#ff09afed"
+                        android:centerColor="#ff09afed"
                         android:centerY="0.75"
-                        android:endColor="#ffffcb00"
+                        android:endColor="#ff09afed"
                         android:angle="270"
                 />
             </shape>
         </clip>
     </item>
-    
+
 </layer-list>
 
